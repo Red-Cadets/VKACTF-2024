@@ -2,7 +2,7 @@
 
 | Событие | Название | Категория | Сложность |
 | :------ | ---- | ---- | ---- |
-| VKACTF 2024 | Protest  | Web | Hard |
+| VKACTF 2024 | Protest  | Web | Сложно |
 
   
 ### Описание
@@ -39,7 +39,7 @@ aaaaaaaaaaaaaaaaa!
 5. Сервер перезагрузится с новым ```__init__.py``` файлом и отправит флаг на ваш сервер. 
 
 ### Эксплоит
-[ez_exploit.py](../give/ez_exploit.py)
+[exploit.py](../give/ez_exploit.py)
 
 ### Флаг
 
