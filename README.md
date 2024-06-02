@@ -23,7 +23,7 @@
 
 - [RunAway](categories/misc/misc-1e-RunAway/solution/writeup.md)
 - [GTA phrase service](categories/misc/misc-2m-GTA-phrase-service/solution/writeup.md)
-- [flag_paradise](categories/misc/misc-3m-flag-paradise/solution/writeup.md)
+- [Helicopter](categories/misc/misc-3m-flag-helicopter/solution/writeup.md)
 
 
 #### Reverse
