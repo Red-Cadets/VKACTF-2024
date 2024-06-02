@@ -36,7 +36,7 @@
 
 #### Web
 
-- [Breakfast](categories/web/web-1e-breakfast/solution/writeup.md)
-- [SVUdb](categories/web/web-2m-SVUdb/solution/writeup.md)
-- [Pacman](categories/web/web-3m-pacman/solution/writeup.md)
-- [Image board](categories/web/web-4h-imagesharing/solution/writeup.md)
+- [BigSmokePages](categories/web/web-1e-BigSmokePages/solution/writeup.md)
+- [StripTeaser](categories/web/web-2m-StripTeaser/solution/writeup.md)
+- [GTSearch](categories/web/web-3m-gtsearch/solution/writeup.md)
+- [Protest](categories/web/web-4h-protest/solution/writeup.md)
