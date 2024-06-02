@@ -28,10 +28,10 @@
 
 #### Reverse
 
-- [perXORator](categories/reverse/rev-1e-perxorator/solution/writeup.md)
-- [Encoder](categories/reverse/rev-2m-encoder/solution/writeup.md)
-- [Mobile](categories/reverse/rev-3m-mobile/solution/writeup.md)
-- [Clicker](categories/reverse/rev-4h-clicker/solution/writeup.md)
+- [Lottery](categories/reverse/rev-1e-lottery/solution/writeup.md)
+- [Carousel](categories/reverse/rev-2m-carousel/solution/writeup.md)
+- [Rustic](categories/reverse/rev-3m-rustic/solution/writeup.md)
+- [Secret Of Criminals](categories/reverse/rev-4h-SecretOfCriminals/solution/writeup.md)
 
 
 #### Web
