@@ -20,11 +20,40 @@
 Далее определяемся, как выбирваются карты, какой генератор исполльзуется. 
 Находим, что используется генератор Фибоначчи
 
-![](img/22.png)
+```Python
+    def next(self):
+        
+        x = (self.state[0] + self.state[3] + self.state[9]) % self.N
+        state_new = [int(self.state[i]) for i in range(1, 10)]
+        self.state = state_new
+        self.state.append(x)
+
+        return x 
+```
 
 Смотрим, как выбираются карты, исходя из state. Замечаем схожесть с задачей китайской теоремы об остатках. Каждая карта - результат вычисления по модулю чисел state.
 
-![](img/33.png)
+```Python
+    def first_draw(self, n):
+        first_draw = []
+        self.x = self.next()
+        for _ in range(n):
+
+            first_draw.append(self.deck[self.x % len(self.deck)])
+            self.deck.remove(self.deck[self.x % len(self.deck)])
+
+        return first_draw
+    
+    def second_draw(self, n):
+        second_draw = []
+
+        for _ in range(n):
+
+            second_draw.append(self.deck[self.x % len(self.deck)])
+            self.deck.remove(self.deck[self.x % len(self.deck)])
+                    
+        return second_draw
+```
 
 Далее, делая минимальные ставки - набираем пулл остатков. Модули соответственно будут равны размеру колоды, уменьшаемой на один при каждом назначении карты. Решаем систему уравнений через CRT и находим 10 значений state, их которых будут генерироваться новые колоды.
 
