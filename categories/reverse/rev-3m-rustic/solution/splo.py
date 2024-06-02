@@ -1,13 +1,8 @@
 from z3 import *
 
-# Create a solver instance
 solver = Solver()
 
-# Define flag variables
 FLAG = [BitVec(f"FLAG_{i}", 32) for i in range(1, 46)]
-
-# Add constraints for each equation
-
 
 for i in range(0, 45):
     solver.add(FLAG[i] > 30, FLAG[i] < 130)
