@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package phrases;
+
+option go_package = "./gta-phrases-service";
+
+service GTAGameService {
+    rpc RegisterUser (RegisterRequest) returns (RegisterResponse) {}
+    rpc LoginUser (LoginRequest) returns (LoginResponse) {}
+    rpc GetPhrase (GetPhraseRequest) returns (Phrase) {}
+    rpc CheckAnswer (CheckAnswerRequest) returns (AnswerResult) {}
+}
+
+message RegisterRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message RegisterResponse {
+    bool success = 1;
+}
+
+message LoginRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message LoginResponse {
+    int64 userId = 1;
+    string authToken = 2;
+}
+
+message GetPhraseRequest {
+    string authToken = 1;
+}
+
+message Phrase {
+    string text = 1;
+}
+
+message CheckAnswerRequest {
+    string authToken = 1;
+    string text = 2;
+    string answer = 3;
+}
+
+message AnswerResult {
+    bool correct = 1;
+    int32 correctCount = 2;
+    string correctAnswer = 3; 
+    string flag = 4;
+}

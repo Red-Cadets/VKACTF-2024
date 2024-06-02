@@ -1,4 +1,4 @@
-# VKACTF-kids`2023
+# VKACTF-2024
 
 ## WriteUps
 
@@ -13,22 +13,17 @@
 - [Минерва](categories/crypto/cry-4h-minerva/solution/writeup.md)
 
 
-#### Forensics
+#### Pwn
 
-- [Потерянные](categories/forensics/for-1e-lost/solution/writeup.md)
-- [Важные советы](categories/forensics/for-2m-important_tips/solution/writeup.md)
-- [Палач](categories/forensics/for-3m-hangman/solution/writeup.md)
-- [Бруталити](categories/forensics/for-4h-brutaliti/solution/writeup.md)
+- [Robbery of Uncle Sam](categories/pwn/pwn-1e-Robbery-of-Uncle-Sam/solution/writeup.md)
+- [Важные советы](categories/pwn/pwn-2m-home-Sweet-Home/solution/writeup.md)
 
 
 #### Misc
 
-- [Encaptcha](categories/misc/misc-1e-encaptcha/solution/writeup.md)
-- [Fsociety](categories/misc/misc-2e-Fsociety/solution/writeup.md)
+- [RunAway](categories/misc/misc-1e-RunAway/solution/writeup.md)
+- [GTA phrase service](categories/misc/misc-2m-GTA-phrase-service/solution/writeup.md)
 - [flag_paradise](categories/misc/misc-3m-flag-paradise/solution/writeup.md)
-- [Всё пропало](categories/misc/misc-4m-vse_propalo/solution/writeup.md)
-- [captcha_v2.0](categories/misc/misc-5h-captcha_v2.0/solution/writeup.md)
-- [Players Club](categories/misc/misc-6h-players-club/solution/writeup.md)
 
 
 #### Reverse
