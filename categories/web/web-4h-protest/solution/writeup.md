@@ -36,7 +36,7 @@ aaaaaaaaaaaaaaaaa!
 5. Сервер перезагрузится с новым ```__init__.py``` файлом и отправит флаг на ваш сервер. 
 
 ### Эксплоит
-![ez_exploit.py](../give/ez_exploit.py)
+[ez_exploit.py](../give/ez_exploit.py)
 
 ### Флаг
 
