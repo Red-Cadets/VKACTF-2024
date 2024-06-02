@@ -20,7 +20,7 @@
 
 3. При переходе на ```/proc/self/cmdline``` видим, что процесс запущен python3 server.py
 
-4. Используя lfi на /home/app/server.py , получаем файл запускающий процесс 
+4. Используя lfi на ```/home/app/server.py``` , получаем файл запускающий процесс 
 ```
 from chal import server if __name__ == '__main__': server.run(host='0.0.0.0', port=10022)
 ```
