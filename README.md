@@ -7,10 +7,10 @@
 
 #### Crypto
 
-- [Отважные парни](categories/crypto/cry-1e-atbash/solution/writeup.md)
-- [Двоечница](categories/crypto/cry-2m-evklid/solution/writeup.md)
-- [RSmAll](categories/crypto/cry-3m-RSmAll/solution/writeup.md)
-- [Минерва](categories/crypto/cry-4h-minerva/solution/writeup.md)
+- [Lagged Dimond](categories/crypto/cry-1e-LFG/solution/writeup.md)
+- [Mapsss](categories/crypto/cry-2m-FSS/solution/writeup.md)
+- [Long Long Time](categories/crypto/cry-3m-LRS/solution/writeup.md)
+- [Next Genetation](categories/crypto/cry-4h-MLWE/solution/writeup.md)
 
 
 #### Pwn

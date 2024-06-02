@@ -1,0 +1,16 @@
+┌─[inssurg3nt@Inssurg3nt-PC] - [~/tool] - [4936]
+└─[$] ./FSS.py split -f files/mapa_.jpg -n 9 -m 7                                                                                                          [0:29:58]
+Your key saved in: ~/tool/keys/key_6576.txt
+Your IV saved in: ~/tool/keys/iv_7221.txt
+Your polynomial saved in: ~/tool/params/poly_2029.txt
+Done! You can find your files in ~/tool/shares/2024-05-29_00-49-54
+┌─[inssurg3nt@Inssurg3nt-PC] - [~/tool] - [4938]
+└─[$] ./FSS.py split -f files/mapa_.jpg -n 9 -m 7 -k keys/key_6576.txt -i ivs/iv_7221.txt                                                                  [0:49:54]
+Your polynomial saved in: ~/tool/params/poly_4148.txt
+Done! You can find your files in ~/tool/shares/2024-05-29_00-50-23
+┌─[inssurg3nt@Inssurg3nt-PC] - [~/tool] - [4939]
+└─[$] ./FSS.py split -f files/mapa_flag.png -n 9 -m 7 -p params/poly_4148.txt                                                                              [0:50:23]
+Your key saved in: ~/tool/keys/key_1855.txt
+Your IV saved in: ~/tool/keys/iv_939.txt
+Your polynomial saved in: ~/tool/params/poly_6787.txt
+Done! You can find your files in ~/tool/shares/2024-05-29_00-51-01
