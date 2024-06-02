@@ -16,7 +16,7 @@
 #### Pwn
 
 - [Robbery of Uncle Sam](categories/pwn/pwn-1e-Robbery-of-Uncle-Sam/solution/writeup.md)
-- [Важные советы](categories/pwn/pwn-2m-home-Sweet-Home/solution/writeup.md)
+- [home Sweet Home](categories/pwn/pwn-2m-home-Sweet-Home/solution/writeup.md)
 
 
 #### Misc
