@@ -13,11 +13,12 @@
 # Решение
 
 1. Изучив код сервера можно понять, что взаимодействие происходит только через ввод имени.
-
+```
 player_name = bytes.fromhex(input("Enter name in hex format: "))
 HeroName(io.BytesIO(player_name)).load()
 ```
 2. Ввод происходит через класс HeroName() 
+```
 class HeroName(pickle.Unpickler): 
      def find_class(self, module, name): 
         if module == 'collections' and '__' not in name:
