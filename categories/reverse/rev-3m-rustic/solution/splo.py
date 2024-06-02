@@ -200,6 +200,5 @@ solver.check()
 solve = solver.model()
 
 for j in range(0, 45):
-    # print(int(str(solve[FLAG[j]])), end=' ')
     print(chr(int(str(solve[FLAG[j]]))), end="")
 print()
